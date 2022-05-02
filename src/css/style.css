@@ -29,11 +29,17 @@ img {
 
 p {
 
-text-align: center; 
+text-align: left; 
 margin-left: 60px; /* Отступ слева в пикселах */
 margin-right: 10px; /* Отступ справа в пикселах */
 }
 
 ul {
-    margin: 500px;
+    margin: 400px;
+    font-size: 24px;
+}
+
+li {
+    margin: 400px;
+    font-size: 20px;
 }
