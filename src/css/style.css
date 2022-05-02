@@ -30,11 +30,11 @@ img {
 p {
 
 text-align: left; 
-margin-left: 60px; /* Отступ слева в пикселах */
-margin-right: 10px; /* Отступ справа в пикселах */
+margin-left: 60px; 
+margin-right: 10px; 
 }
 
-ul, li {
+ul {
     margin:800px;
     font-size: 24px;
 }
