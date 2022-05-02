@@ -20,7 +20,8 @@ h2 {
 img {
     width: 500px; 
     height: 800px; 
-    box-shadow: inset 0 0 6px; 
+    box-shadow: inset 0 0 10px;
+    background: url(img/ilya.jpg) 50% 50% no-repeat; 
 }
 
 p {
