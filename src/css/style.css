@@ -6,9 +6,10 @@ body {
 
 h1 {
     color:midnightblue;
-    font-size:large;
+    font-size:24 px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+    text-align: center
 }
 
 h2 {
@@ -16,17 +17,18 @@ h2 {
     font-size:medim;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    text-align: center
 }
 img {
     width: 400px; 
-    height: 650px; 
+    height: 600px; 
     box-shadow: 0 0 5px 2px red;
     background: url(src/img/ilya.jpg) 
 }
 
 p {
 
-text-align: justify; /* Выравнивание по ширине */
+text-align: center; 
 margin-left: 60px; /* Отступ слева в пикселах */
 margin-right: 10px; /* Отступ справа в пикселах */
 }
