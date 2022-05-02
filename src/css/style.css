@@ -34,7 +34,7 @@ margin-left: 60px; /* Отступ слева в пикселах */
 margin-right: 10px; /* Отступ справа в пикселах */
 }
 
-ul {
-    margin: 500px;
+ul, li {
+    margin:800px;
     font-size: 24px;
 }
