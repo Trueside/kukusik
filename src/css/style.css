@@ -35,11 +35,6 @@ margin-right: 10px; /* Отступ справа в пикселах */
 }
 
 ul {
-    margin: 400px;
+    margin: 500px;
     font-size: 24px;
-}
-
-li {
-    margin: 400px;
-    font-size: 20px;
 }
