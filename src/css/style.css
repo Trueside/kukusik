@@ -23,7 +23,8 @@ img {
     width: 400px; 
     height: 600px; 
     box-shadow: 0 0 5px 2px red;
-    background: url(src/img/ilya.jpg) 
+    background: url(src/img/ilya.jpg);
+    float: left;
 }
 
 p {
@@ -31,4 +32,8 @@ p {
 text-align: center; 
 margin-left: 60px; /* Отступ слева в пикселах */
 margin-right: 10px; /* Отступ справа в пикселах */
+}
+
+ul {
+    margin: 500px;
 }
