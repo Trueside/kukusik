@@ -1,0 +1,31 @@
+body {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: burlywood;
+   color:brown
+}
+
+h1 {
+    color:midnightblue;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color:darkblue;
+    font-size:medim;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+img {
+    width: 50px; 
+    height: 80px; 
+    box-shadow: inset 0 0 6px; 
+}
+
+p {
+
+text-align: justify; /* Выравнивание по ширине */
+margin-left: 60px; /* Отступ слева в пикселах */
+margin-right: 10px; /* Отступ справа в пикселах */
+}
