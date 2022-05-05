@@ -1,0 +1,40 @@
+body {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: burlywood;
+   color:brown
+}
+
+h1 {
+    color:midnightblue;
+    font-size:24 px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center
+}
+
+h2 {
+    color:darkblue;
+    font-size:medim;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center
+}
+img {
+    width: 400px; 
+    height: 600px; 
+    box-shadow: 0 0 5px 2px red;
+    background: url(src/img/ilya.jpg);
+    float: left;
+}
+
+p {
+
+text-align: left; 
+margin-left: 60px; 
+margin-right: 10px; 
+}
+
+ul {
+    margin-left: 800px;
+    font-size: 24px;
+}
