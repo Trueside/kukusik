@@ -92,18 +92,107 @@ h1 {
 h2 {
     margin-bottom: 40px;
     margin-top: 40px;
+    margin-left: 40px;
     text-shadow: 4px 4px 5px rgb(20, 95, 135);
 }
 
 p {
-    line-height: 1.6
+    line-height: 1.6;
+    margin-left: 40px
 
 }
 
 img {
     border-radius: 8px;
     display: block;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
-    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+*{box-sizing:content-box
+}
+
+nav {background: #759b5f;}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left:20px;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: left;
+
+}
+nav a {
+  text-decoration;
+  display: block;
+  transition: .2s ease-out;
+  margin-left:20px;
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+  margin: 5px;
+  font-weight: bold;
+  
+}
+.topmenu > li {
+  float:left;
+  position:relative;
+  border-left: 10px solid rgb(129, 7, 7);
+
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li > a {  
+  padding: 200px 300px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #581a1a;
+  letter-spacing: 2px;
+}
+.topmenu > li > a.active, 
+.submenu a:hover {color: #c9c1b3;}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 50px;
+  color: inherit;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: rgb(134, 182, 119);
+  border-top: 1px solid #CBCBCC;
+  border-left: 1px solid #CBCBCC;
+  border-right: 1px solid #CBCBCC;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s ease-out;  
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #000000;
+  padding: 18px 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #91af85;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 92%;
+  top: -1px;
+  transition: .3s ease-out;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+li {
+   list-style-type: none;
 }
