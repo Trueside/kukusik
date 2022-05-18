@@ -4,7 +4,8 @@
       <title>Статья про Губку Боба</title>
       <meta charset="UTF-8">
       <link rel="stylesheet" href="src/css/seriousstyle.css">
-      <script src="src/js/seriousjs.js" defer></script>
+      <script src="src/js/guessCharacter.js"></script>
+      <script src="src/js/clickImg.js"></script>
     </head>
     <body>
        <nav>
@@ -30,7 +31,7 @@
        <div id="about">
        <h1>Губка Боб Квадратные штаны</h1>
       <p><b>«Губка Боб Квадратные Штаны»</b> — американский мультсериал производства телеканала «Nickelodeon», выпущенный в эфир 17 июля 1999 года и ставший одной из самых популярных анимационных программ телевидения. Это первый по продолжительности показа анимированный сериал телеканала Nickelodeon, обогнавший «Ох уж эти детки!» (англ. «Rugrats») — на данный момент он насчитывает девять полных сезонов.</p>
-      <img src="src/img/series.jpg">
+      <img id=series src="src/img/series.jpg" onclick="changeImg()">
       </div>
         <div id="characters" class="container">
             <section class="toc-wrapper">
@@ -73,6 +74,11 @@
          <p><img src="src/img/plankton.png" alt="Plankton">
          <b>Шелдон Питер Джей Планктон</b> — один из десяти главных персонажей мультсериала "Губка Боб Квадратные Штаны". Он управляет неудачным рестораном под названием "Чам Баккет" вместе с Карен, водонепроницаемым компьютером, которая является его женой.
          </p>
+      </div>
+      <div class="guess"> 
+         <h3>Угадай персонажа!</h3>
+         <p id="patrick">Розовый и флегматичный</p>
+         <button type="button" class="button" onclick="myAnswer()">Ответ</button>
       </div>
       <div id="bikini">
          <h2>Бикини Ботом</h2>

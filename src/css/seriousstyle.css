@@ -147,6 +147,10 @@ b {
     float:right;
 }
 
+.hero {
+   overflow: auto;
+}
+
 #bikini img {
    border-radius: 8px;
    display: block;
@@ -239,4 +243,26 @@ nav li:hover > .submenu {
 }
 li {
    list-style-type: none;
+}
+
+.button {
+   background-color:#151b7d;
+   border:none; 
+   color: white;
+   padding: 10px 20px;
+   text-align: center; 
+   text-decoration: none;
+   display: inline-flex;
+   font-size: 16px; 
+   font-family: 'Noto Serif', serif;
+   border-radius: 8px;
+   margin-left: 80px;
+   margin-top: 20px;
+   margin-bottom: 20px; 
+}
+
+.button:hover {
+   background-color: white;
+   color:#151b7d;
+   cursor: pointer;
 }
