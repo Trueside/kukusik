@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build":"tsc",
-    "start":"node .",
+    "start":"node ."
   },
   "repository": {
     "type": "git",
