@@ -23,7 +23,7 @@ img {
     width: 400px; 
     height: 600px; 
     box-shadow: 0 0 5px 2px red;
-    background: url(src/img/ilya.jpg);
+    background: url(./img/ilya.jpg);
     float: left;
 }
 

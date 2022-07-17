@@ -1,0 +1,32 @@
+{
+  "name": "kukusik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build":"tsc",
+    "start":"node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trueside/kukusik.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trueside/kukusik/issues"
+  },
+  "homepage": "https://github.com/Trueside/kukusik#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.34"
+  }
+}
